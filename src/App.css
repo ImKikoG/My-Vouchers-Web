@@ -39,3 +39,84 @@
 .read-the-docs {
   color: #888;
 }
+
+/*Admin*/
+*{
+  margin: 0;
+  font-family: 'Overpass';
+}            
+html, body{
+  background-color: #F0F2F2;
+}
+body{
+  font-size: 22px;
+}
+ul{
+  background-color: #010326;
+  list-style-type:none;
+  overflow:hidden;
+}
+li{
+  float: left;
+  display:block;
+  padding: 16px;
+}
+a{
+  text-decoration: none;
+  color: #F0F2F2;
+}
+table{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  border-spacing: 10px;
+}
+#li_logout{
+  float: right;
+}
+#list{
+  background-color: #6FBFBF;
+  color: #010326;
+  text-align: left;
+  padding: 20px;
+}
+#search{
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  border-spacing: 10px;
+  border-radius: 50px;
+  text-align: left;
+  padding: 5px;
+  background-color: #6FBFBF;
+  color: #010326;
+}
+.info_name{
+  text-align: center;
+  color: #010326;
+  font-size: xxx-large;
+  font-weight: bold;
+}
+.info_other{                
+}
+.info_hyperlink{
+  color:#6FBFBF;
+}
+.active_tab{
+  color:#6FBFBF;
+}
+.inactive_tab{
+  color: #F0F2F2;
+}
+.split{
+  width: 50%;
+  position: fixed;
+}
+.left{
+  left: 0;
+}
+.right{
+  right: 0;
+}
