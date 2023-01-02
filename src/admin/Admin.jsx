@@ -3,7 +3,7 @@ import { Link, Outlet } from "react-router-dom";
 
 export default function Admin() {
   return (
-    <>
+    <div className="admin-page-container">
       <nav>
         <ul>
           <Link to="/admin/deliverers">Deliverers</Link>
@@ -12,7 +12,9 @@ export default function Admin() {
           <Link to="/">Log out</Link>
         </ul>
       </nav>
-      <Outlet />
-    </>
+      <div className="admin-page-container">
+        <Outlet />
+      </div>
+    </div>
   );
 }

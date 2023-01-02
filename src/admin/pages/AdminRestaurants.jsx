@@ -2,7 +2,7 @@ import React from "react";
 
 export default function AdminRestaurants() {
   return (
-    <div>
+    <div className="admin-container">
       <div class="split left">
         <table>
           <tr>
