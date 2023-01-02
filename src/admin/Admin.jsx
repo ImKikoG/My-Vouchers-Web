@@ -4,15 +4,17 @@ import { Link, Outlet } from "react-router-dom";
 export default function Admin() {
   return (
     <div className="admin-page-container">
-      <nav>
-        <ul>
+      <nav className="admin-nav">
+        <div className="left-align">
           <Link to="/admin/deliverers">Deliverers</Link>
           <Link to="/admin/students">Students</Link>
           <Link to="/admin/restaurants">Restaurants</Link>
+        </div>
+        <div className="right-align">
           <Link to="/">Log out</Link>
-        </ul>
+        </div>
       </nav>
-      <div className="admin-page-container">
+      <div className="admin-content">
         <Outlet />
       </div>
     </div>

@@ -196,12 +196,14 @@ button:focus-visible {
 .admin_logout {
   float: right;
 }
+
 .admin_list {
   background-color: #6fbfbf;
   color: #010326;
   text-align: left;
   padding: 20px;
 }
+
 .admin_search {
   width: 95%;
   margin-left: auto;
@@ -214,23 +216,15 @@ button:focus-visible {
   background-color: #6fbfbf;
   color: #010326;
 }
-.admin_nav {
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
 
-  width: 100%;
-  height: 10%;
-}
 .info_name {
   text-align: center;
   color: #010326;
   font-size: xxx-large;
   font-weight: bold;
+}
+.info_other {
+  color: #010326;
 }
 .info_hyperlink {
   color: #6fbfbf;
@@ -251,11 +245,49 @@ button:focus-visible {
 .right {
   right: 0;
 }
+
 .admin-page-container {
-  width: 100%;
-  height: 90%;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
 }
-.admin-container {
+
+.admin-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+
   width: 100%;
-  height: 100%;
+  height: 5%;
+  background-color: #010326;
+}
+
+.admin-nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.admin-nav .left-align {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 5rem;
+}
+
+.admin-nav .right-align {
+  margin-right: 5rem;
+}
+
+.admin-content {
+  width: 100%;
+  height: 95%;
+  position: absolute;
+  bottom: 0;
 }
