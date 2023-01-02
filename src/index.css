@@ -165,44 +165,44 @@ button:focus-visible {
   margin: 0;
   font-family: "Overpass";
 }
-html,
-body {
+.admin_html,
+.admin_body {
   background-color: #f0f2f2;
 }
-body {
+.admin_body {
   font-size: 22px;
 }
-ul {
+.admin_ul {
   background-color: #010326;
   list-style-type: none;
   overflow: hidden;
 }
-li {
+.admin_li {
   float: left;
   display: block;
   padding: 16px;
 }
-a {
+.admin_tabs {
   text-decoration: none;
   color: #f0f2f2;
 }
-table {
+.admin_table {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
   padding-top: 10px;
   border-spacing: 10px;
 }
-#li_logout {
+.admin_logout {
   float: right;
 }
-#list {
+.admin_list {
   background-color: #6fbfbf;
   color: #010326;
   text-align: left;
   padding: 20px;
 }
-#search {
+.admin_search {
   width: 95%;
   margin-left: auto;
   margin-right: auto;
@@ -214,7 +214,7 @@ table {
   background-color: #6fbfbf;
   color: #010326;
 }
-nav {
+.admin_nav {
   position: absolute;
   top: 0;
   left: 0;
