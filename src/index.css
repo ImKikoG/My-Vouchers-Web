@@ -291,3 +291,88 @@ button:focus-visible {
   position: absolute;
   bottom: 0;
 }
+
+/*Restaurant*/
+.info_restaurant_name{
+  text-align: left;
+  color: #010326;
+  font-size: xxx-large;
+  font-weight: bold;
+  padding-top: 5%;
+  padding-left: 5%;
+  margin-bottom: 8%;
+}
+
+.info_orderHistory_title{
+  text-align: left;
+  color: #6fbfbf;
+  font-size: xxx-large;
+  font-weight: bold;
+  padding-top: 5%;
+  padding-left: 5%;
+  margin-bottom: 8%;
+}
+
+.info_stats{
+  text-align: left;
+  color: #010326;
+  font-size: x-large;
+  padding-left: 5%;
+  margin-bottom: 2%;
+}
+
+.info_pending{
+  text-align: left;
+  color: #6fbfbf;;
+  font-size: x-large;
+  padding-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  font-weight: bold;
+}
+
+.order{
+  display:grid;
+	grid-gap:30px;
+	grid-template-columns:repeat(1, [col] 1fr);
+	grid-template-rows:repeat(1, [row] auto);
+  background-color:white;
+	color:#010326;
+  /*border-color: #010326;
+  border-width: 10px;*/
+  border: 3.5px solid #010326;
+	padding:20px;
+	height:auto;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 3%;
+  font-size: x-large;
+}
+
+.order_name{
+  font-weight: bold;
+}
+
+.restaurant_search_bar{
+  margin-left: 4%;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+
+.menu_entry{
+  display:grid;
+	grid-gap:30px;
+	grid-template-columns:repeat(1, [col] 1fr);
+	grid-template-rows:repeat(1, [row] auto);
+  background-color:#6fbfbf;
+	color:white;
+  /*border-color: #010326;
+  border-width: 10px;*/
+  border: 3.5px solid #010326;
+	padding:20px;
+	height:auto;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 3%;
+  font-size: x-large;
+}
