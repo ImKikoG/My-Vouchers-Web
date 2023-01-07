@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function CustomButton({ inputText }) {
+export default function CustomButton({ inputText, disabled }) {
   return (
     <div className="button-container">
-      <button>{inputText}</button>
+      <button disabled={disabled}>{inputText}</button>
     </div>
   );
 }
