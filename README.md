@@ -10,8 +10,8 @@ Za namestitev aplikacije sta potrebna [git](https://git-scm.com/) in [npm](https
 
 ## Instalacija
 
-1. Klonirajte repozitorij [GitHub](https://github.com/ImKikoG/My-Vouchers-Web);
-2. Zaženite `npm i`, da namestite vse zahtevane odvisnosti. To lahko traja približno 3-5 minut;
+1. Klonirajte repozitorij [GitHub](https://github.com/ImKikoG/My-Vouchers-Web) z ukazom `git clone https://github.com/ImKikoG/My-Vouchers-Web.git`;
+2. V mapo repozitorija zaženite `npm i`, da namestite vse zahtevane odvisnosti. To lahko traja približno 3-5 minut;
 3. Zaženite `npm run dev` za zagon aplikacije. Če uporabljate konzolo, boste videli vrata, dodeljena aplikaciji;
 4. Kopirajte naslov lokalnega gostitelja v spletni brskalnik.
 
