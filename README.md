@@ -18,4 +18,5 @@ Za namestitev aplikacije sta potrebna [git](https://git-scm.com/) in [npm](https
 ## Uporaba
 
 Ko je vse pravilno nameščeno, se mora odpreti prijavna stran. Če kot e-poštni naslov napišete test@rups.com, kot geslo pa admin1, morate biti preusmerjeni na prazno korensko stran, ki vsebuje le navigacijsko vrstico. S klikom na zavihke se prikaže administratorski pogled aplikacije.
+
 Če želite dostopati do pogleda restavracije, v naslov URL dodajte /restaurant. Vidna je sprememba v navigacijski vrstici in zdaj lahko s klikom na zavihke preidete na različne strani pogleda restavracije. 
